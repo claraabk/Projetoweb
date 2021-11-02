@@ -1,0 +1,218 @@
+body {
+    background-color: rgb(36,52,71);
+
+}
+
+.vidaacademica {
+    margin-left: 17rem;
+    background-color: #141d26;
+    width : 43rem;
+    height:6rem;
+    border-radius: 1.6rem;
+
+}
+
+.vidaacademica p {
+    color : white;
+    font-family: Arial;
+    font-size: 1.6rem;
+    
+}
+
+#foto2 {
+
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 50%;
+    padding-left :0.7rem;
+    padding-top : 0.6rem
+
+}
+
+#volta {
+
+    text-decoration: none;
+    
+}
+
+#volta p {
+
+    margin-left: 17rem;
+    color:white;
+    font-family: arial;
+
+}
+
+.p1 {
+
+    background-color: #141d26;
+    margin-left: 17rem;
+    width : 43rem;
+    height:7rem;
+    border-radius: 1.6rem;
+
+}
+
+.p1 ul {
+
+    font-family: arial;
+    font-size: 1.4rem;
+    color: white;
+    padding-top: 1.7rem;
+    margin-left: 1rem;
+
+}
+
+.atualmente {
+
+    background-color: #141d26;
+    margin-left: 17rem;
+    width : 43rem;
+    height:7rem;
+    border-radius: 1.6rem;
+
+}
+
+.atualmente ul {
+
+    font-family: arial;
+    font-size: 1.4rem;
+    color: white;
+    padding-top: 1.7rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+
+}
+
+.ingles {
+
+    background-color: #141d26;
+    margin-left: 17rem;
+    width : 43rem;
+    height:5.2rem;
+    border-radius: 1.6rem;
+
+
+}
+
+.ingles ul {
+
+    font-family: arial;
+    font-size: 1.4rem;
+    color: white;
+    padding-top: 1.7rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    
+
+}
+
+@media screen and (max-width:414px) {
+
+    .vidaacademica {
+        margin-left: 0.5rem;
+        background-color: #141d26;
+        width : 24.5rem;
+        height:6rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .vidaacademica p {
+        color : white;
+        font-family: Arial;
+        font-size: 1.6rem;
+        
+    }
+    
+    #foto2 {
+    
+        width: 4.3rem;
+        height: 4.3rem;
+        border-radius: 50%;
+        padding-left :0.7rem;
+        padding-top : 0.6rem
+    
+    }
+
+    #volta {
+    
+        text-decoration: none;
+        
+    }
+    
+    #volta p {
+    
+        margin-left: 0.5rem;
+        color:white;
+        font-family: arial;
+    
+    }
+
+    .p1 {
+
+        background-color: #141d26;
+        margin-left: 0.5rem;
+        width : 24.5rem;
+        height:9.5rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .p1 ul {
+    
+        font-family: arial;
+        font-size: 1.4rem;
+        color: white;
+        padding-top: 1.7rem;
+        margin-left: 1rem;
+        padding-right: 1rem;
+    
+    }
+    
+    .atualmente {
+    
+        background-color: #141d26;
+        margin-left: 0.5rem;
+        width : 24.5rem;
+        height:11rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .atualmente ul {
+    
+        font-family: arial;
+        font-size: 1.4rem;
+        color: white;
+        padding-top: 1.7rem;
+        margin-left: 1rem;
+        margin-right: 4rem;
+    
+    }
+    
+    .ingles {
+    
+        background-color: #141d26;
+        margin-left: 0.5rem;
+        width : 24.5rem;
+        height:8rem;
+        border-radius: 1.6rem;
+    
+    
+    }
+    
+    .ingles ul {
+    
+        font-family: arial;
+        font-size: 1.4rem;
+        color: white;
+        padding-top: 1.7rem;
+        margin-left: 1rem;
+        margin-right: 4rem;
+        
+    
+    }
+
+    
+}
