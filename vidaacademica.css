@@ -112,7 +112,7 @@ body {
     .vidaacademica {
         margin-left: 0.5rem;
         background-color: #141d26;
-        width : 24.5rem;
+        width : 350px;
         height:6rem;
         border-radius: 1.6rem;
     
@@ -121,7 +121,7 @@ body {
     .vidaacademica p {
         color : white;
         font-family: Arial;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         
     }
     
@@ -153,8 +153,8 @@ body {
 
         background-color: #141d26;
         margin-left: 0.5rem;
-        width : 24.5rem;
-        height:9.5rem;
+        width : 350px;
+        height:9rem;
         border-radius: 1.6rem;
     
     }
@@ -162,7 +162,7 @@ body {
     .p1 ul {
     
         font-family: arial;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: white;
         padding-top: 1.7rem;
         margin-left: 1rem;
@@ -174,8 +174,8 @@ body {
     
         background-color: #141d26;
         margin-left: 0.5rem;
-        width : 24.5rem;
-        height:11rem;
+        width : 350px;
+        height:10rem;
         border-radius: 1.6rem;
     
     }
@@ -183,7 +183,7 @@ body {
     .atualmente ul {
     
         font-family: arial;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: white;
         padding-top: 1.7rem;
         margin-left: 1rem;
@@ -195,8 +195,8 @@ body {
     
         background-color: #141d26;
         margin-left: 0.5rem;
-        width : 24.5rem;
-        height:8rem;
+        width : 350px;
+        height:7rem;
         border-radius: 1.6rem;
     
     
@@ -205,7 +205,7 @@ body {
     .ingles ul {
     
         font-family: arial;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: white;
         padding-top: 1.7rem;
         margin-left: 1rem;
@@ -215,4 +215,113 @@ body {
     }
 
     
+}
+
+@media screen and (max-width:1024px) and (min-width:500px) {
+    
+    .vidaacademica {
+        margin-left: 1rem;
+        background-color: #141d26;
+        width : 45rem;
+        height:8rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .vidaacademica p {
+        color : white;
+        font-family: Arial;
+        font-size: 2rem;
+        
+    }
+    
+    #foto2 {
+    
+        width: 4.3rem;
+        height: 4.3rem;
+        border-radius: 50%;
+        padding-left :0.7rem;
+        padding-top : 0.6rem
+    
+    }
+    
+    #volta {
+    
+        text-decoration: none;
+        
+    }
+    
+    #volta p {
+    
+        margin-left: 1rem;
+        color:white;
+        font-family: arial;
+        font-size: 2rem;
+    
+    }
+    
+    .p1 {
+    
+        background-color: #141d26;
+        margin-left: 1rem;
+        width : 45rem;
+        height:8.6rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .p1 ul {
+    
+        font-family: arial;
+        font-size: 2rem;
+        color: white;
+        padding-top: 1.7rem;
+        margin-left: 1rem;
+    
+    }
+    
+    .atualmente {
+    
+        background-color: #141d26;
+        margin-left: 1rem;
+        width : 45rem;
+        height:10rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .atualmente ul {
+    
+        font-family: arial;
+        font-size: 2rem;
+        color: white;
+        padding-top: 1.7rem;
+        margin-left: 1rem;
+        margin-right: 4rem;
+    
+    }
+    
+    .ingles {
+    
+        background-color: #141d26;
+        margin-left: 1rem;
+        width : 45rem;
+        height:8rem;
+        border-radius: 1.6rem;
+    
+    
+    }
+    
+    .ingles ul {
+    
+        font-family: arial;
+        font-size: 2rem;
+        color: white;
+        padding-top: 1.7rem;
+        margin-left: 1rem;
+        margin-right: 4rem;
+        
+    
+    }
+
 }

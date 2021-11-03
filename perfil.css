@@ -203,7 +203,7 @@ body {
 
     #print {
 
-        width:26rem;
+        width:375px;
         margin-left: 0%;
         
     }
@@ -211,7 +211,7 @@ body {
     #nome {
 
         color :white;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-family:Arial, Helvetica, sans-serif;
         margin-left: 0.5rem;
         margin-bottom: 0.3rem;
@@ -221,7 +221,7 @@ body {
     #user {
     
         color : #6E7E7D;
-        font-size: 20px;
+        font-size: 15px;
         font-family:inherit;
         margin-left: 0.5rem;
         margin-top: 0.3rem;
@@ -231,7 +231,7 @@ body {
     
     #localizacao {
     
-        width: 1.5rem;
+        width: 16px;
         float :left;
     
     }
@@ -251,7 +251,7 @@ body {
     
     #aniv {
         margin-left: 0.5rem ;
-        font-size:18px;
+        font-size:16px;
         color : #6E7E7D
     
     }
@@ -263,6 +263,7 @@ body {
         color: white;
         margin-bottom: 0%;
         margin-top: 5%;
+        font-size:18px;
     
     }
     
@@ -288,7 +289,7 @@ body {
     .sobremim {
         margin-left: 0.5rem;
         background-color: 	#141d26;
-        width: 24.5rem;
+        width: 360px;
         height: 20rem;
         border-radius: 1.6rem;
     
@@ -298,7 +299,7 @@ body {
     
         color: white;
         font-family: Arial;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         
     }
     
@@ -315,7 +316,7 @@ body {
     .vidaacademica {
         margin-left: 0.5rem;
         background-color: #141d26;
-        width : 24.5rem;
+        width : 360px;
         height:6rem;
         border-radius: 1.6rem;
     
@@ -324,7 +325,7 @@ body {
     .vidaacademica p {
         color : white;
         font-family: Arial;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         
     }
     
@@ -346,7 +347,7 @@ body {
     .redessociais {
         margin-left: 0.5rem;
         background-color: #141d26;
-        width : 24.5rem;
+        width : 360px;
         height:6rem;
         border-radius: 1.6rem;
         margin-bottom: 2rem;
@@ -358,7 +359,7 @@ body {
     
         color : white;
         font-family: Arial;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     
     }
     
@@ -379,7 +380,7 @@ body {
     
     #crianca {
         width:9rem;
-        margin-left: 3rem;
+        margin-left: 1.8rem;
     
     }
     
@@ -391,5 +392,200 @@ body {
     }
 
     
+}
+
+@media screen  and (min-width:500px) and (max-width:1024px) {
+    
+    #nome {
+
+        color :white;
+        font-size: 2rem;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 1rem;
+        margin-bottom: 0.3rem;
+        
+    }
+    
+    #user {
+    
+        color : #6E7E7D;
+        font-size: 1.8rem;
+        font-family:inherit;
+        margin-left: 1rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.2;
+    
+    }
+    
+    #localizacao {
+    
+        width: 1.8rem;
+        float :left;
+    
+    }
+    
+    #location {
+    
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        color : #6E7E7D
+    
+    }
+    
+    #balao {
+        width : 1.8rem;
+    
+    }
+    
+    #aniv {
+        margin-left: 1rem ;
+        font-size:1.8rem;
+        color : #6E7E7D
+    
+    }
+    
+    #tt {
+    
+        margin-left: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 0%;
+        margin-top: 5%;
+        font-size:2rem;
+    
+    }
+    
+    #linha {
+    
+        margin-left: 1rem;
+        color: rgb(0, 172, 237);
+        margin-top: 0%;
+        margin-bottom: 5%;
+    
+    }
+    
+    #ft_perfil {
+    
+        width: 4.3rem;
+        height: 4.3rem;
+        border-radius: 50%;
+        padding-left :0.7rem;
+        padding-top : 0.6rem
+    
+    }
+    
+    .sobremim {
+        margin-left: 1rem;
+        background-color: 	#141d26;
+        width: 47rem;
+        height: 27rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .sobremim p {
+    
+        color: white;
+        font-family: Arial;
+        font-size: 2rem;
+        
+    }
+    
+    #a1 {
+        text-decoration: none;
+    
+    }
+    
+    #a2 {
+        text-decoration: none;
+    
+    }
+    
+    .vidaacademica {
+        margin-left: 1rem;
+        background-color: #141d26;
+        width : 47rem;
+        height:6rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .vidaacademica p {
+        color : white;
+        font-family: Arial;
+        font-size: 2rem;
+        
+    }
+    
+    #foto2 {
+    
+        width: 4.3rem;
+        height: 4.3rem;
+        border-radius: 50%;
+        padding-left :0.7rem;
+        padding-top : 0.6rem
+    
+    }
+    
+    #vidaacademica {
+        text-decoration: none;
+    
+    }
+    
+    .redessociais {
+        margin-left: 1rem;
+        background-color: #141d26;
+        width : 47rem;
+        height:6rem;
+        border-radius: 1.6rem;
+        margin-bottom: 2rem;
+    
+    
+    }
+    
+    .redessociais p {
+    
+        color : white;
+        font-family: Arial;
+        font-size: 2rem;
+    
+    }
+    
+    #ft3 {
+    
+        width: 4.3rem;
+        height: 4.3rem;
+        border-radius: 50%;
+        padding-left :0.7rem;
+        padding-top : 0.6rem
+    
+    }
+    
+    #a3 {
+    
+        text-decoration: none;
+    }
+    
+    #crianca {
+        width:13rem;
+        margin-left: 9rem;
+    
+    }
+    
+    #agora {
+        width: 13rem;
+        margin-left: 1rem;
+    
+    
+    }
+    
+
+    #print {
+
+        width:760px;
+        margin-left: 1rem;
+        
+    }
+
 }
 

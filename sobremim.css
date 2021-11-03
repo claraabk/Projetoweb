@@ -152,7 +152,7 @@ body {
     .sobremim {
         margin-left: 0.5rem;
         background-color: 	#141d26;
-        width: 24.5rem;
+        width: 350px;
         height: 20rem;
         border-radius: 1.6rem;
     
@@ -162,13 +162,13 @@ body {
     
         color: white;
         font-family: Arial;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         
     }
     
     #crianca {
         width:9rem;
-        margin-left: 3rem;
+        margin-left: 1.6rem;
     
     }
     
@@ -191,7 +191,7 @@ body {
 
         background-color: #141d26;
         margin-left: 0.5rem;
-        width : 24.5rem;
+        width : 350px;
         height : 7rem;
         border-radius: 1.6rem;
     
@@ -204,7 +204,7 @@ body {
         color: white;
         font-family: arial;
         margin-left: 1.4rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     #volta {
@@ -225,8 +225,8 @@ body {
     
         background-color: #141d26;
         margin-left: 0.5rem;
-        width : 24.5rem;
-        height: 12rem;
+        width : 350px;
+        height: 10rem;
         border-radius: 1.6rem;
     
     }
@@ -236,7 +236,7 @@ body {
         margin-left: 1.4rem;
         font-family: arial;
         font-size: 1.4rem;
-        padding-top: 2.1rem;
+        padding-top: 1.3rem;
         margin-bottom: 0%;
     }
     
@@ -245,7 +245,7 @@ body {
         color: white;
         margin-left: 1.7rem;
         font-family: arial;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     
     }
     
@@ -253,7 +253,7 @@ body {
     
         background-color: #141d26;
         margin-left: 0.5rem;
-        width : 24.5rem;
+        width : 350px;
         height: 14rem;
         border-radius: 1.6rem;
         margin-bottom: 2.4rem;
@@ -266,7 +266,7 @@ body {
         color: white;
         margin-left: 1.4rem;
         font-family: arial;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         padding-top: 2.1rem;
         margin-bottom: 0%;
         padding-right: 1rem;
@@ -278,10 +278,152 @@ body {
         color: white;
         margin-left: 1.7rem;
         font-family: arial;
-        font-size: 1.4rem;
-        padding-right: 0.7rem;
+        font-size: 1.2rem;
+        padding-right: 0.8rem;
     
     }
 
     
+}
+
+@media screen and (min-width:580px) and (max-width:1024px) {
+    
+    .sobremim {
+
+        background-color: #141d26;
+        margin-left: 1rem;
+        width : 45rem;
+        height: 26rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .sobremim p {
+        color: white;
+        font-family: arial;
+        font-size: 2rem;
+    
+    }
+    
+    #ft_perfil {
+    
+        width: 4.3rem;
+        height: 4.3rem;
+        border-radius: 50%;
+        padding-left :0.7rem;
+        padding-top : 0.6rem
+    
+    }
+    
+    #crianca {
+    
+        width:13rem;
+        margin-left: 1rem;
+    
+    }
+    
+    #agora {
+    
+        width: 13rem;
+        margin-left: 1rem;
+    
+    }
+    
+    .p1 {
+    
+        background-color: #141d26;
+        margin-left: 1rem;
+        width : 45rem;
+        height : 6rem;
+        border-radius: 2rem;
+    
+    
+    }
+    
+    .p1 p {
+    
+        padding-top: 2.1rem;
+        color: white;
+        font-family: arial;
+        margin-left: 1.4rem;
+        font-size: 2rem;
+    }
+    
+    #volta {
+    
+        text-decoration: none;
+        
+    }
+    
+    #volta p {
+    
+        margin-left: 1rem;
+        color:white;
+        font-family: arial;
+        font-size: 1.8rem;
+    
+    }
+    
+    .hobbies {
+    
+        background-color: #141d26;
+        margin-left: 1rem;
+        width : 45rem;
+        height: 15rem;
+        border-radius: 1.6rem;
+    
+    }
+    
+    .hobbies p {
+        color: white;
+        margin-left: 1.4rem;
+        font-family: arial;
+        font-size: 2rem;
+        padding-top: 2.1rem;
+        margin-bottom: 0%;
+    }
+    
+    .hobbies ul {
+    
+        color: white;
+        margin-left: 2rem;
+        font-family: arial;
+        font-size: 2rem;
+    
+    }
+    
+    .curiosidades {
+    
+        background-color: #141d26;
+        margin-left: 1rem;
+        width : 45rem;
+        height: 16rem;
+        border-radius: 1.6rem;
+        margin-bottom: 2.4rem;
+        
+    }
+    
+    .curiosidades p {
+    
+        color: white;
+        margin-left: 1.4rem;
+        font-family: arial;
+        font-size: 2rem;
+        padding-top: 2.1rem;
+        margin-bottom: 0%;
+    
+    }
+    
+    .curiosidades ul {
+    
+        color: white;
+        margin-left: 1.7rem;
+        font-family: arial;
+        font-size:2rem;
+    
+    }
+
+
+
+
 }
